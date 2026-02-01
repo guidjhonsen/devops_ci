@@ -6,11 +6,12 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 @ExtendWith(MockitoExtension.class)
+
 public class BasicApplicationTests  {
 
     @Test
     void contextLoads() {
-       String message = "Default Message Cambio 11";
+       String message = "Default Message Cambio cambio test debops";
         assertNotNull(message);
     }
 }
